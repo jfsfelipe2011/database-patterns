@@ -1,0 +1,26 @@
+version: '2'
+
+services:
+  db:
+    container_name: database-patterns
+    hostname: database-patterns
+    image: mysql:5.6
+    environment:
+      - MYSQL_ROOT_PASSWORD=p7qAdDp2
+      - MYSQL_DATABASE=patterns
+      - MYSQL_USER=patterns
+      - MYSQL_PASSWORD=patterns
+    volumes:
+      - ./sql:/docker-entrypoint-initdb.d
+  pma:
+    container_name: pma-database-patterns
+    hostname: pma-database-patterns
+    image: phpmyadmin/phpmyadmin:latest
+    links:
+      - db
+    environment:
+      - PMA_ARBITRARY=1
+networks:
+  default:
+    external:
+      name: jose
