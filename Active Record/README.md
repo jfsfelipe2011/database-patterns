@@ -18,4 +18,4 @@ bastante usado em abstrações de Modelos de domínio.
 
 #### Exemplo
 
-![Exemplo]()
+![Exemplo](https://i.ibb.co/TBS8cyQ/exemplo-active-record.png)
