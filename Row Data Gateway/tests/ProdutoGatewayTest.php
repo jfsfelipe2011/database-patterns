@@ -4,7 +4,6 @@ declare(strict_types=1);
 
 namespace Tests;
 
-use App\Produto;
 use App\ProdutoGateway;
 use PHPUnit\Framework\TestCase;
 use Prophecy\Argument;
