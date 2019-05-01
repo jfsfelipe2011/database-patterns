@@ -17,7 +17,7 @@ dados.
 
 #### Estrutura
 
-![Estrutura](https://i.ibb.co/7GM9hkY/estrutura-table-data-gateway.png)
+![Estrutura](https://i.ibb.co/yPnRLVY/estrutura-table-data-gateway.png)
 
 #### Exemplo
 
